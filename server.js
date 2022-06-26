@@ -6,7 +6,7 @@ const PORT = 8000
 const characters = {
     'data': [
                 {
-                'agnes skinner': {
+                    'name':'agnes skinner',
                     'age': '70s',
                     'sex':'female',
                     'Status':'Alive',
@@ -28,10 +28,10 @@ const characters = {
                     ],
                     'images': 'https://static.simpsonswiki.com/images/7/7d/Agnes_Skinner.png'
 
-                }
+                
             },
             {
-            'dr. apu nahasapeemapetilon Jr.':{
+                    'name':'dr. apu nahasapeemapetilon Jr.',
                     'age': 38,
                     'sex': 'Male',
                     'status': 'Alive',
@@ -61,10 +61,10 @@ const characters = {
                         'The Telltale Head'
                     ],
                     'image':'https://static.wikia.nocookie.net/simpsons/images/7/7d/Apu_Nahasapeemapetilon.png/revision/latest?cb=20201222215823' 
-                }
+                
             },
                { 
-                'arnie pye':{
+                    'name':'arnie pye',
                     'age': 37,
                     'sex': 'Male',
                     'status': 'Alive',
@@ -77,9 +77,9 @@ const characters = {
                         'Homer Alone'
                     ],
                     'image': 'https://static.wikia.nocookie.net/simpsons/images/4/40/Arnie_Pye.png/revision/latest?cb=20130816174158'
-                }},
+                },
                 {
-                'artie ziff':{
+                    'name':'artie ziff',
                     'age': 'unknown',
                     'sex': 'Male',
                     'status': 'Alive',
@@ -96,10 +96,10 @@ const characters = {
                         'The Way We Was'
                     ],
                     'image': 'https://static.wikia.nocookie.net/simpsons/images/0/0c/Artie_Ziff.png/revision/latest?cb=20150727093911'
-                }
+                
             },
             {
-                'birch barlow':{
+                    'name':'birch barlow',
                     'age':43 ,
                     'sex': 'Male',
                     'status': 'Alive',
@@ -111,10 +111,11 @@ const characters = {
                         'Slideshow Bob Roberts'
                     ],
                     'image': 'https://static.wikia.nocookie.net/simpsons/images/e/e9/Birch_Barlow.png/revision/latest?cb=20180104233549'
-                }
+                
             },
             {
-                'bartolomew jojo simpson':{
+                
+                    'name':'bartolomew jojo simpson',
                     'age': 10,
                     'sex': 'Male',
                     'status': 'Alive',
@@ -154,7 +155,7 @@ const characters = {
                         'Goodnight'
                     ],
                     'image': 'https://static.wikia.nocookie.net/simpsons/images/6/65/Bart_Simpson.png/revision/latest?cb=20190409004756'
-                }
+                
             }
         ]
         
