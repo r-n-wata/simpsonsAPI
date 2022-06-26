@@ -172,6 +172,6 @@ app.get('/api', (req, res) => {
     res.json(characters)
 })
 
-app.listen(PORT, () =>{
+app.listen(process.env.PORT || PORT, () =>{
     console.log('sever is running')
 })
