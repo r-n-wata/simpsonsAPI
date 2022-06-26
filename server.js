@@ -26,7 +26,7 @@ const characters = {
                     'first appearance': [
                         'The Crepes of Wrath'
                     ],
-                    'images': 'https://static.simpsonswiki.com/images/7/7d/Agnes_Skinner.png'
+                    'image': 'https://static.simpsonswiki.com/images/7/7d/Agnes_Skinner.png'
 
                 
             },
