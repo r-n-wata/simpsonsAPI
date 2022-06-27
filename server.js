@@ -60,7 +60,8 @@ const characters = {
                     'first appearance': [
                         'The Telltale Head'
                     ],
-                    'image':'https://static.wikia.nocookie.net/simpsons/images/7/7d/Apu_Nahasapeemapetilon.png/revision/latest?cb=20201222215823' 
+                    'image':' https://static.simpsonswiki.com/images/d/d1/Apu_Nahasapeemapetilon_-_shading.png' 
+                   
                 
             },
                { 
@@ -76,7 +77,7 @@ const characters = {
                         'Some Enchanted Evening', 
                         'Homer Alone'
                     ],
-                    'image': 'https://static.wikia.nocookie.net/simpsons/images/4/40/Arnie_Pye.png/revision/latest?cb=20130816174158'
+                    'image': 'https://static.simpsonswiki.com/images/4/40/Arnie_Pye.png'
                 },
                 {
                     'name':'artie ziff',
@@ -95,7 +96,7 @@ const characters = {
                     'first appearance': [
                         'The Way We Was'
                     ],
-                    'image': 'https://static.wikia.nocookie.net/simpsons/images/0/0c/Artie_Ziff.png/revision/latest?cb=20150727093911'
+                    'image': 'https://static.simpsonswiki.com/images/0/0c/Artie_Ziff.png'
                 
             },
             {
@@ -110,7 +111,7 @@ const characters = {
                     'first appearance': [
                         'Slideshow Bob Roberts'
                     ],
-                    'image': 'https://static.wikia.nocookie.net/simpsons/images/e/e9/Birch_Barlow.png/revision/latest?cb=20180104233549'
+                    'image': 'https://static.simpsonswiki.com/images/e/e9/Birch_Barlow.png'
                 
             },
             {
@@ -154,7 +155,7 @@ const characters = {
                     'first appearance': [
                         'Goodnight'
                     ],
-                    'image': 'https://static.wikia.nocookie.net/simpsons/images/6/65/Bart_Simpson.png/revision/latest?cb=20190409004756'
+                    'image': 'https://static.simpsonswiki.com/images/6/65/Bart_Simpson.png'
                 
             }
         ]
