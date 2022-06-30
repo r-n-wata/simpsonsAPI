@@ -173,6 +173,8 @@ const characters = {
 
 }
 
+
+
 app.use(cors())
 
 
@@ -180,9 +182,32 @@ app.get('/', (req, res) =>{
     res.sendFile(__dirname + '/index.html')
 })
 
+app.get('/css/style.css', (req, res) =>{
+    res.sendFile(__dirname + '/css/style.css')
+})
+
+app.get('/img/simpsonsback.jpg', (req, res) =>{
+    res.sendFile(__dirname + '/img/simpsonsback.jpg')
+})
+
+
 app.get('/api', (req, res) => {
     res.json(characters)
 })
+
+app.get('/api/:name', (req, res) => {
+    const characterName = req.params.name.toLocaleLowerCase()
+    const getCharacter = characters.data.map(el => el.name)
+    if(getCharacter.indexOf(characterName) !== -1){
+        let i = getCharacter.indexOf(characterName)
+        res.json(characters.data[i])
+    }else{
+                // response.json(rappers['unknown'])
+                console.log('not found')
+            }
+ 
+})
+
 
 app.listen(process.env.PORT || PORT, () =>{
     console.log('sever is running')

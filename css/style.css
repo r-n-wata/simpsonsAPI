@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin:0
+}
+
+
+body{
+    background:url('/img/simpsonsback.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100%;
+    
+}
+p{
+    font-size:1.2rem;
+    word-spacing: 1px;;
+}
+span{
+    font-size: 1rem;;
+}
+
+.main{
+    background:white;
+    margin:0 5rem;
+    margin-bottom:5rem;
+    display:flex;
+    /* padding-top:.5rem;
+    padding-bottom:.5rem; */
+   
+}
+
+.main-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:10rem;
+}
+
+.main-options{
+    border-right:2px solid rgb(135, 135, 135);
+    width:30%;
+    background: rgb(232, 222, 176);
+}   
+
+
+
+.main-options-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+    width:100%;
+    
+}
+.main-options-container h4:hover{
+    cursor: pointer;
+    background-color: rgb(200, 191, 153);
+}
+
+.main-options-container h4{
+    border-bottom:2px solid rgb(135, 135, 135);
+    padding:2rem 0 2rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    width:100%;
+    
+
+}
+
+.main-content{
+    padding:3rem;
+}
+
+.doc-title{
+    font-size:2rem;
+    margin-bottom:2rem;
+    width:100%;
+    /* text-align: center; */
+}
+
+.doc-intro{
+    margin:1rem 0;
+    margin-bottom:3rem;
+    width:80%;
+    /* text-align: center; */
+}
+
+.doc-access-all, .access-characs{
+    display: flex;
+    flex-direction: column;
+    gap:.7rem;
+}
+
+.doc-access-title{
+    font-size:1.5rem;
+}
+
+pre{
+    width:80%;
+    height:20rem;
+    overflow: auto;
+    padding:20px;
+    /* display: flex;;
+    align-items: center;
+    justify-content: center; */
+    background-color: rgb(39, 39, 39);
+    color:white
+
+
+}
+code{
+
+    width:100%;
+}
+
+.access-characs{
+    padding-top: 4rem;;
+}
