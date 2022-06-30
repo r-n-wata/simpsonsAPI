@@ -185,6 +185,9 @@ app.get('/', (req, res) =>{
 app.get('/css/style.css', (req, res) =>{
     res.sendFile(__dirname + '/css/style.css')
 })
+app.get('/js/main.js', (req, res) =>{
+    res.sendFile(__dirname + '/js/main.js')
+})
 
 app.get('/img/simpsonsback.jpg', (req, res) =>{
     res.sendFile(__dirname + '/img/simpsonsback.jpg')
